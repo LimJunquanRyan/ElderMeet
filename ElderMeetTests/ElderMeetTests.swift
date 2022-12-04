@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ElderMeet
+@testable import Pods_ElderMeet
 
 class ElderMeetTests: XCTestCase {
 

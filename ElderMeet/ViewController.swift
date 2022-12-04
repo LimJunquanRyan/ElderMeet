@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseAuth
 
 class ViewController: UIViewController {
 
+    @IBOutlet var usernameTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,33 +25,29 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func showAlert(message:String)
+    {
+    let alert = UIAlertController(title: message, message: "", preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+    self.present(alert, animated: true)
+    }
+    
     @IBAction func signupButtonPressed(_ sender: Any) {
-        let alert = UIAlertController(title: "Sign up", message: "", preferredStyle: .alert)
-        alert.addTextField { (textField) in
-            textField.placeholder = "Email address"
+        if ((usernameTextField.text == "") || (passwordTextField.text == "")) {
+            self.showAlert(message: "All fields are mandatory!")
+            return
         }
-        alert.addTextField { (textField) in
-            textField.placeholder = "Password"
-            textField.isSecureTextEntry = true
-        }
-        
-        let signupAction = UIAlertAction(title: "Sign up", style: .default) { (_) in
-            let emailField = alert.textFields![0]
-            let passwordField = alert.textFields![1]
-            
-            if let email = emailField.text, let password = passwordField.text {
-                Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
-                    if (error == nil) {
-                        Auth.auth().signIn(withEmail: email, password: password, completion: nil)
-                    }
-                })
+        else {
+            Auth.auth().createUser(withEmail: usernameTextField.text!, password: passwordTextField.text!) {
+            (authResult, error) in
+            if ((error == nil)) {
+                self.showAlert(message: "Signup Successful!")
+            }
+            else {
+                self.showAlert(message: ("Signup Unsuccessful..."))
             }
         }
-        
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        alert.addAction(signupAction)
-        alert.addAction(cancelAction)
-        present(alert, animated: true, completion: nil)
+        }
     }
 
 

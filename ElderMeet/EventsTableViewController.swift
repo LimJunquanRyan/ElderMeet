@@ -10,7 +10,10 @@ import UIKit
 import Firebase
 
 class EventsTableViewController: UITableViewController {
-
+    
+    var activity = String()
+    var location = String()
+    var dateTime = String()
     var tasks: [Task] = []
     let db = Database.database().reference(withPath: "tasks")
     

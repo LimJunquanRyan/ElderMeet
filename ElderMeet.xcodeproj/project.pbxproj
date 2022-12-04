@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		241DE21ED457EAF939BC702B /* Pods_ElderMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5C795F6038849EB9DE6FE /* Pods_ElderMeet.framework */; };
-		94CB2EDA217EB24D0028D8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CB2ED9217EB24D0028D8CD /* Main.storyboard */; };
+		94CA81A124D0655D00950FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CA81A024D0655D00950FCE /* Main.storyboard */; };
 		94CB2EDC217EB2960028D8CD /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2EDB217EB2960028D8CD /* UsersTableViewController.swift */; };
 		94CB2EDE217EB2A50028D8CD /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2EDD217EB2A50028D8CD /* EventsTableViewController.swift */; };
 		94CB2EE0217EB2B20028D8CD /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2EDF217EB2B20028D8CD /* Users.swift */; };
 		94CB2EE2217EB2BD0028D8CD /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2EE1217EB2BD0028D8CD /* Events.swift */; };
+		94CB2F30217F1E690028D8CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94CB2F2F217F1E690028D8CD /* GoogleService-Info.plist */; };
+		94CB2F3A217F2ADB0028D8CD /* LocationDateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2F32217F2AD90028D8CD /* LocationDateTimeViewController.swift */; };
+		94CB2F3B217F2ADB0028D8CD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2F33217F2AD90028D8CD /* Event.swift */; };
+		94CB2F3D217F2ADB0028D8CD /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2F35217F2ADA0028D8CD /* EventTableViewCell.swift */; };
+		94CB2F3F217F2ADB0028D8CD /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB2F38217F2ADA0028D8CD /* ActivityViewController.swift */; };
 		94F3F640217DA29900E2514B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3F63F217DA29900E2514B /* AppDelegate.swift */; };
 		94F3F642217DA29900E2514B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3F641217DA29900E2514B /* ViewController.swift */; };
 		94F3F647217DA29B00E2514B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F3F646217DA29B00E2514B /* Assets.xcassets */; };
@@ -46,11 +51,16 @@
 		2525ED9F976DEA977062ED3E /* Pods-ElderMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElderMeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElderMeet/Pods-ElderMeet.debug.xcconfig"; sourceTree = "<group>"; };
 		784615E1817DF7A65048E2F4 /* Pods_ElderMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElderMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78821AB46375BCAF0C168C27 /* Pods-ElderMeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElderMeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElderMeetUITests/Pods-ElderMeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		94CB2ED9217EB24D0028D8CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94CA81A024D0655D00950FCE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		94CB2EDB217EB2960028D8CD /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		94CB2EDD217EB2A50028D8CD /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		94CB2EDF217EB2B20028D8CD /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		94CB2EE1217EB2BD0028D8CD /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		94CB2F2F217F1E690028D8CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94CB2F32217F2AD90028D8CD /* LocationDateTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDateTimeViewController.swift; sourceTree = "<group>"; };
+		94CB2F33217F2AD90028D8CD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		94CB2F35217F2ADA0028D8CD /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		94CB2F38217F2ADA0028D8CD /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		94F3F63C217DA29900E2514B /* ElderMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElderMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F3F63F217DA29900E2514B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F3F641217DA29900E2514B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,13 +157,18 @@
 			children = (
 				94F3F63F217DA29900E2514B /* AppDelegate.swift */,
 				94F3F641217DA29900E2514B /* ViewController.swift */,
-				94CB2EDB217EB2960028D8CD /* UsersTableViewController.swift */,
 				94CB2EDD217EB2A50028D8CD /* EventsTableViewController.swift */,
+				94CB2F35217F2ADA0028D8CD /* EventTableViewCell.swift */,
+				94CB2EDB217EB2960028D8CD /* UsersTableViewController.swift */,
+				94CB2F38217F2ADA0028D8CD /* ActivityViewController.swift */,
+				94CB2F32217F2AD90028D8CD /* LocationDateTimeViewController.swift */,
 				94CB2EDF217EB2B20028D8CD /* Users.swift */,
 				94CB2EE1217EB2BD0028D8CD /* Events.swift */,
-				94CB2ED9217EB24D0028D8CD /* Main.storyboard */,
+				94CB2F33217F2AD90028D8CD /* Event.swift */,
+				94CA81A024D0655D00950FCE /* Main.storyboard */,
 				94F3F646217DA29B00E2514B /* Assets.xcassets */,
 				94F3F648217DA29B00E2514B /* LaunchScreen.storyboard */,
+				94CB2F2F217F1E690028D8CD /* GoogleService-Info.plist */,
 				94F3F64B217DA29B00E2514B /* Info.plist */,
 			);
 			path = ElderMeet;
@@ -244,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Ryan Lim";
 				TargetAttributes = {
 					94F3F63B217DA29900E2514B = {
@@ -286,8 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F3F64A217DA29B00E2514B /* LaunchScreen.storyboard in Resources */,
+				94CB2F30217F1E690028D8CD /* GoogleService-Info.plist in Resources */,
 				94F3F647217DA29B00E2514B /* Assets.xcassets in Resources */,
-				94CB2EDA217EB24D0028D8CD /* Main.storyboard in Resources */,
+				94CA81A124D0655D00950FCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,12 +333,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ElderMeet/Pods-ElderMeet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,8 +410,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				94CB2EE2217EB2BD0028D8CD /* Events.swift in Sources */,
+				94CB2F3D217F2ADB0028D8CD /* EventTableViewCell.swift in Sources */,
+				94CB2F3B217F2ADB0028D8CD /* Event.swift in Sources */,
 				94F3F642217DA29900E2514B /* ViewController.swift in Sources */,
 				94F3F640217DA29900E2514B /* AppDelegate.swift in Sources */,
+				94CB2F3A217F2ADB0028D8CD /* LocationDateTimeViewController.swift in Sources */,
+				94CB2F3F217F2ADB0028D8CD /* ActivityViewController.swift in Sources */,
 				94CB2EE0217EB2B20028D8CD /* Users.swift in Sources */,
 				94CB2EDE217EB2A50028D8CD /* EventsTableViewController.swift in Sources */,
 				94CB2EDC217EB2960028D8CD /* UsersTableViewController.swift in Sources */,
@@ -494,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -549,7 +571,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -566,7 +588,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -581,7 +606,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -597,7 +625,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -614,7 +646,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -630,7 +666,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeetUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeetUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -646,7 +686,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElderMeetUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Lim.ElderMeetUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
